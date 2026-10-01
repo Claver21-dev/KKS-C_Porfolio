@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAINT-CLAVER — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Feuille de style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-logo">DEV S.</div>
+  <button class="hamburger" aria-label="Ouvrir le menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#engagement">Engagement</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#social">Réseaux</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<!--HERO-->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+  <div class="hero-content">
+    <h1 class="hero-name">
+      <span class="line3" style="color: whitesmoke;">SAINT-CLAVER</span>
+    </h1>
+    <p class="hero-subtitle">
+      Développeur Front-End passionné par la création d'interfaces web belles et fonctionnelles.
+      <br>
+      Je transforme les ambitions digitales en solutions concrètes, en combinant créativité, technologie et expertise Front-End.
+      <br>
+      HTML · CSS · JavaScript · React Native 
+      <br>
+      basé en Côte d'Ivoire 
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">Voir mes projets </a>
+      <a href="#contact"  class="btn-outline">Me contacter</a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="images/photo.png" alt="SAINT-CLAVER">
+  </div>
+  <div class="scroll-indicator">
+
+    <span>Scroll</span>
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+
+<!-- À PROPOS -->
+<section id="about">
+  <div class="container">
+    <p class="section-tag"> Qui suis-je</p>
+    <h2 class="section-title">À propos de moi</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="about-lead">
+          Bonjour ! Je suis <strong>KOBENAN KOFFI SAINT-CLAVER</strong>, 23 ans, 
+          étudiant en Master Informatique Génie à Pigier en Côte d'Ivoire,
+          et développeur Front-End en pleine construction.
+        </p>
+        <p>
+          Mon parcours n'a pas commencé dans le code : c'est en observant à quel point une interface bien pensée
+          peut changer la façon dont on vit une application que j'ai eu le déclic pour le développement web.
+          Depuis, j'apprends chaque jour voir HTML, CSS, JavaScript, et plus récemment React Native; en construisant
+          de vrais projets plutôt qu'en me contentant de tutoriels.
+        </p>
+        <p>
+          En dehors du code, je suis engager dans le scoutisme depuis 2022 et aujourd'hui
+          je suis responsable d'une troupe scoute depuis deux ans : une expérience qui m'a
+          appris la discipline, le sens des responsabilités et le travail d'équipe — des qualités que j'essaie
+          d'apporter dans chaque projet et chaque équipe que je rejoins.
+        </p>
+        <div class="about-flags">
+          <span class="flag flag-orange">Front-End Dev</span>
+          <span class="flag flag-teal">Côte d'Ivoire </span>
+          <span class="flag flag-purple">Ouvert aux offres</span>
+        </div>
+
+        <a href="#engagement" class="about-engagement-teaser">
+          <span class="aet-icon"><i class="fa-solid fa-fire"></i></span>
+          <span class="aet-text">
+            <strong>Chef de troupe scoute depuis 2 ans</strong>
+            Responsable de 20+ jeunes de 12 à 15 ans — découvrir mon engagement
+          </span>
+          <span class="aet-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Timeline parcours / formation -->
+    <div class="timeline">
+      <h3 class="timeline-title">Mon parcours</h3>
+      <ul class="timeline-list">
+        <li class="timeline-item">
+          <div class="timeline-year">2025</div>
+          <h4>Certifications complémentaires</h4>
+          <p>Certificat en formulation d'un sujet de recherche innovant et bancable, et participation certifiée au Salon des Expériences.</p>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-year">2023 — 2024</div>
+          <h4>Licence Informatique et Science du Numérique</h4>
+          <p>Université Virtuelle de Côte d'Ivoire (UVCI) — fondations en développement web et culture numérique.</p>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-year">2020 — 2021</div>
+          <h4>Baccalauréat série D</h4>
+          <p>Lycée Moderne de Dabakala.</p>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-year">2016 — 2017</div>
+          <h4>Brevet d'Étude du Premier Cycle</h4>
+          <p>Lycée Moderne de Dabakala.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- COMPÉTENCES -->
+<section id="skills">
+  <div class="container">
+    <p class="section-tag"> Ce que je maîtrise</p>
+    <h2 class="section-title">Mes compétences</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card sk-html">
+        <div class="skill-icon">
+            <img src="images/html.jpg" alt="HTML Logo">
+        </div>
+        <div class="skill-name">HTML5</div>
+        <div class="skill-level">Avancé</div>
+        <div class="skill-bar"><div class="skill-fill fill-html" data-width="75"></div></div>
+      </div>
+
+      <div class="skill-card sk-css">
+        <div class="skill-icon">
+            <img src="images/css.jpg" alt="css Logo">
+        </div>
+        <div class="skill-name">CSS3</div>
+        <div class="skill-level">Avancé</div>
+        <div class="skill-bar"><div class="skill-fill fill-css" data-width="70"></div></div>
+      </div>
+
+      <div class="skill-card sk-js">
+        <div class="skill-icon">
+            <img src="images/js.jpg" alt="js Logo">
+        </div>
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-level">Avancé</div>
+        <div class="skill-bar"><div class="skill-fill fill-js" data-width="78"></div></div>
+      </div>
+
+      <div class="skill-card sk-rn">
+        <div class="skill-icon">
+          <img src="images/react.jpg" alt="React Native Logo">
+        </div>
+        <div class="skill-name">React Native</div>
+        <div class="skill-level">Notions — En apprentissage</div>
+        <div class="skill-bar"><div class="skill-fill fill-rn" data-width="50"></div></div>
+      </div>
+
+      <div class="skill-card sk-rwd">
+        <div class="skill-icon">
+            <img src="images/design.jpg" alt="Responsive Logo">
+        </div>
+        <div class="skill-name">Responsive Design</div>
+        <div class="skill-level">Avancé</div>
+        <div class="skill-bar"><div class="skill-fill fill-rwd" data-width="85"></div></div>
+      </div>
+
+      <div class="skill-card sk-git">
+        <div class="skill-icon">
+            <img src="images/github.jpg" alt="gihub Logo">
+        </div>
+        <div class="skill-name">Git / GitHub</div>
+        <div class="skill-level">Intermédiaire</div>
+        <div class="skill-bar"><div class="skill-fill fill-git" data-width="65"></div></div>
+      </div>
+
+      <div class="skill-card sk-ai">
+        <div class="skill-icon">
+            <img src="images/Ia.jpg" alt="ia Logo">
+        </div>
+        <div class="skill-name">Intelligence Artificielle</div>
+        <div class="skill-level">Intermédiaire</div>
+        <div class="skill-bar"><div class="skill-fill fill-ai" data-width="65"></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--ENGAGEMENT ASSOCIATIF-->
+<section id="engagement">
+  <div class="container">
+    <p class="section-tag"> En dehors du code</p>
+    <h2 class="section-title">Mon engagement associatif</h2>
+
+    <div class="engagement-wrap">
+      <div class="engagement-badge">
+        <div class="eb-icon"><i class="fa-solid fa-fire"></i></div>
+        <h3>Chef de Troupe</h3>
+        <p class="eb-org">Association des Scouts Catholiques de Côte d'Ivoire</p>
+        <div class="engagement-stats">
+          <div>
+            <div class="es-num">2 ans</div>
+            <div class="es-label">Responsabilité</div>
+          </div>
+          <div>
+            <div class="es-num">12-15</div>
+            <div class="es-label">Ans encadrés</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="engagement-content">
+        <p>
+          Depuis deux ans, je suis responsable d'une troupe de "troupiers", des jeunes scouts âgés de 12 à 15 ans
+          au sein de l'Association des Scouts Catholiques de Côte d'Ivoire. Mon rôle consiste à organiser leurs
+          activités, encadrer leur progression et transmettre les valeurs du scoutisme : entraide, discipline,
+          respect de la nature et esprit d'équipe.
+        </p>
+        <p>
+          Cette expérience associative va bien au-delà du bénévolat ponctuel : elle m'a appris à porter des
+          responsabilités sur la durée, à gérer un groupe, à préparer et animer des activités, et à rester
+          patient et pédagogue face à des jeunes en pleine construction. Ce sont des compétences que je retrouve
+          aujourd'hui dans ma façon de travailler en équipe de développement.
+        </p>
+        <div class="engagement-skills">
+          <span class="eskill"><i class="fa-solid fa-people-group"></i> Leadership</span>
+          <span class="eskill"><i class="fa-solid fa-list-check"></i> Organisation</span>
+          <span class="eskill"><i class="fa-solid fa-hand-holding-heart"></i> Encadrement</span>
+          <span class="eskill"><i class="fa-solid fa-handshake"></i> Travail d'équipe</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROJETS -->
+<section id="projects">
+  <div class="container">
+    <p class="section-tag"> Ce que j'ai créé</p>
+    <h2 class="section-title">Mes projets</h2>
+    <div class="projects-grid">
+
+      <!-- PROJET 1 — Les Délices -->
+      <div class="project-card">
+        <div class="project-thumb pt1">
+          <img src="images/delices.jpg" alt="Les Délices">
+        </div>
+        <div class="project-body">
+          <div class="project-title">Les Délices</div>
+          <div class="project-desc">
+            Site vitrine d'une crêperie &amp; glacier artisanal. Interface gourmande et moderne
+            mettant en valeur les produits, le menu et l'univers de la boutique. Design chaleureux
+            et navigation fluide pour une expérience appétissante.
+          </div>
+          <div class="project-tags">
+            <span class="ptag">HTML</span>
+            <span class="ptag">CSS</span>
+            <span class="ptag">JavaScript</span>
+            <span class="ptag">Site vitrine</span>
+          </div>
+          <div class="project-links">
+            <a href="https://les-delices-site.vercel.app" target="_blank" class="plink">Live →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJET 2 — TicketFlow -->
+      <div class="project-card">
+        <div class="project-thumb pt1">
+          <img src="images/ticket.png" alt="TicketFlow">
+        </div>
+        <div class="project-body">
+          <div class="project-title">TicketFlow</div>
+          <div class="project-desc">
+            Plateforme de vente de tickets en ligne pour tout type d'événement : concerts,
+            soirées, matchs sportifs, festivals et plus encore. Navigation intuitive et
+            réservation simplifiée pour une expérience utilisateur optimale.
+          </div>
+          <div class="project-tags">
+            <span class="ptag">HTML</span>
+            <span class="ptag">CSS</span>
+            <span class="ptag">JavaScript</span>
+            <span class="ptag">UI Design</span>
+          </div>
+          <div class="project-links">
+            <a href="https://ticket-flow-navy.vercel.app" target="_blank" class="plink">Live →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJET 3 — DougbaServices -->
+      <div class="project-card">
+        <div class="project-thumb pt1">
+          <img src="images/Dougba.png" alt="DougbaServices">
+        </div>
+        <div class="project-body">
+          <div class="project-title">DougbaServices</div>
+          <div class="project-desc">
+            Dougba Service est une interface moderne conçue pour le domaine avicole,
+            dédiée à la présentation des activités d'élevage,
+            à la vente d'aliments pour volailles et à la commercialisation d'œufs et de volailles.
+            Ce projet met l'accent sur une expérience utilisateur fluide,
+            un design moderne et
+            une navigation intuitive afin d'offrir une meilleure visibilité aux services proposés et
+            de rapprocher l'activité agricole du numérique.
+          </div>
+          <div class="project-tags">
+            <span class="ptag">HTML</span>
+            <span class="ptag">CSS</span>
+            <span class="ptag">JavaScript</span>
+            <span class="ptag">UI Design</span>
+          </div>
+          <div class="project-links">
+            <a href="https://dougba-service.vercel.app" target="_blank" class="plink">Live →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--  RÉSEAUX SOCIAUX -->
+<section id="social">
+  <div class="container" style="text-align:center">
+    <p class="section-tag" style="text-align:center"> Me retrouver en ligne</p>
+    <h2 class="section-title" style="text-align:center">Mes réseaux sociaux</h2>
+    <div class="social-grid">
+      <!-- Remplace TON_PSEUDO / TON_PROFIL / TON_NUMERO par tes vraies infos -->
+      <a href="https://github.com/Claver21-dev" target="_blank" class="social-card sc-github">
+        <span class="social-icon"><i class="fa-brands fa-github"></i></span> GitHub
+      </a>
+      <a href="https://linkedin.com/in/koffi-saint-claver-kobenan-81250240a" target="_blank" class="social-card sc-linkedin">
+        <span class="social-icon"><i class="fa-brands fa-linkedin"></i></span> LinkedIn
+      </a>
+      <a href="https://wa.me/2250777895430" target="_blank" class="social-card sc-whatsapp">
+        <span class="social-icon"><i class="fa-brands fa-whatsapp"></i></span> WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <p class="section-tag"> Travaillons ensemble</p>
+    <h2 class="section-title">Me contacter</h2>
+    <div class="contact-wrap">
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="c-icon ci-orange">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div>
+            <div class="c-label">Email</div>
+            <div class="c-val">saintclaver21@gmail.com</div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="c-icon ci-orange">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div>
+            <div class="c-label">Contact</div>
+            <div class="c-val">07 77 89 54 30</div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="c-icon ci-teal">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div>
+            <div class="c-label">Localisation</div>
+            <div class="c-val">Abidjan, Côte d'Ivoire </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="c-icon ci-purple">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div>
+            <div class="c-label">Disponibilité</div>
+            <div class="c-val">Ouvert aux projets &amp; stages</div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <input   type="text"  class="cf-input" placeholder="Votre nom"      required>
+        <input   type="email" class="cf-input" placeholder="Votre email"    required>
+        <input   type="text"  class="cf-input" placeholder="Sujet"          required>
+        <textarea             class="cf-input" placeholder="Votre message..." rows="5" required></textarea>
+        <button type="submit" class="cf-btn">Envoyer le message </button>
+        <p id="form-msg" style="font-size:0.83rem;color:var(--c3);display:none;text-align:center">
+           Message envoyé ! Je vous répondrai bientôt.
+        </p>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p><span>KOBENAN KOFFI SAINT-CLAVER</span> — 2026</p>
+  <p>Développeur Front-End <br> Abidjan, Côte d'Ivoire</p>
+</footer>
+
+<!-- Script (chargé en dernier pour de meilleures performances) -->
+<script src="script.js"></script>
+</body>
+</html>
